@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  font-family: 'Inter', sans-serif;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.header{
+  width: 100%;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  color: aliceblue;
+
+}
+nav img{
+  width: 50px;
+  margin: 10px ;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width:100%;
+  max-width:550px;
+  padding: 20px 10px;
+  gap: 20px;
+
+}
+.image{
+  width: 40%; 
+  object-fit: cover;
+  
+}
+.image img{
+  width: 100%;
+  border-radius: 10px;
+  
+}
+.details{
+  width: 50%;
+  padding: 10px 5px ;
+}
+.details img{
+  width: 20px;
+}
+.details .location{
+  margin:20px 0;
+}
+.location .country{
+  margin-right: 10px;
+}
+.details h2{
+  margin: 10px 0;
+}
+.details .date{
+  margin: 10px 0;
+  font-weight: bold;
+}
+
